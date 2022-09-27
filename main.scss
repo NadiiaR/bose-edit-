@@ -1,0 +1,21 @@
+// sass --watch main.scss main.css
+
+@import "./styles/variables";
+@import "./styles/mixins";
+
+@import "./styles/bloks/page.scss";
+@import "./styles/bloks/container.scss";
+@import "./styles/bloks/grid.scss";
+
+@import "./styles/bloks/logo.scss";
+@import "./styles/bloks/icon.scss";
+@import "./styles/bloks/top-actions.scss";
+@import "./styles/bloks/header.scss";
+@import "./styles/bloks/menu.scss";
+@import "./styles/bloks/testimonials.scss";
+@import "./styles/bloks/footer.scss";
+
+* {
+  margin: 0;
+}
+

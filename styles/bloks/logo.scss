@@ -1,0 +1,16 @@
+.logo {
+  &__image {
+    width: 130px;
+    height: 17px;
+  }
+
+  @include onTablet() {
+    width: 191px;
+    height: 24px;
+  }
+
+  @include onDesctop() {
+    width: 191px;
+    height: 24px;
+  }
+}

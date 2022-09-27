@@ -1,0 +1,15 @@
+.footer {
+  background-image: url("./images/footer.png");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 200px;
+
+  @include onTablet {
+    height: 400px;
+  }
+
+  @include onDesctop {
+    height: 460px;
+  }
+}
